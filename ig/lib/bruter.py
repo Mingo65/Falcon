@@ -13,7 +13,7 @@ from lib.const import max_time_to_wait, max_bots_per_proxy
 
 class Bruter(object):
 
-    def __init__(self, username, threads, passlist_path):
+    def __init__(self, username, samiah_aziz threads, passlist_path):
         self.browsers = []
         self.lock = RLock()
         self.password = None
